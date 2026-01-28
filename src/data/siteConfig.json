@@ -1,0 +1,23 @@
+{
+  "siteName": "DJ Name",
+  "tagline": "Bringing the Beat to Your Event",
+  "description": "Professional DJ services for weddings, corporate events, private parties, and club nights.",
+  "contact": {
+    "email": "contact@example.com",
+    "phone": "(555) 123-4567",
+    "location": "Los Angeles, CA"
+  },
+  "social": {
+    "instagram": "https://instagram.com/djname",
+    "soundcloud": "https://soundcloud.com/djname",
+    "spotify": "https://open.spotify.com/artist/djname",
+    "youtube": "https://youtube.com/@djname"
+  },
+  "calendlyUrl": "https://calendly.com/cyrusw213",
+  "about": {
+    "bio": "With over 10 years of experience, I've had the privilege of providing entertainment for hundreds of events. My passion for music and dedication to creating unforgettable experiences drives everything I do. From intimate gatherings to large-scale productions, I bring energy, professionalism, and the perfect soundtrack to every event.",
+    "experience": "10+ years",
+    "eventsCompleted": "500+",
+    "genres": ["House", "Hip-Hop", "Top 40", "R&B", "Latin", "EDM", "80s/90s", "Rock"]
+  }
+}

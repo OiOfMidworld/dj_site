@@ -1,0 +1,54 @@
+{
+  "upcoming": [
+    {
+      "id": 1,
+      "title": "Friday Night Live",
+      "venue": "The Grand Ballroom",
+      "date": "2025-02-14",
+      "time": "9:00 PM",
+      "description": "Valentine's Day special edition",
+      "isPublic": true
+    },
+    {
+      "id": 2,
+      "title": "Corporate Gala",
+      "venue": "Downtown Convention Center",
+      "date": "2025-02-22",
+      "time": "7:00 PM",
+      "description": "Private corporate event",
+      "isPublic": false
+    },
+    {
+      "id": 3,
+      "title": "Spring Festival",
+      "venue": "City Park Amphitheater",
+      "date": "2025-03-15",
+      "time": "4:00 PM",
+      "description": "Outdoor festival set",
+      "isPublic": true
+    }
+  ],
+  "past": [
+    {
+      "id": 101,
+      "title": "New Year's Eve Bash",
+      "venue": "Rooftop Lounge",
+      "date": "2024-12-31",
+      "description": "NYE countdown celebration"
+    },
+    {
+      "id": 102,
+      "title": "Winter Wedding",
+      "venue": "Mountain View Estate",
+      "date": "2024-12-14",
+      "description": "Beautiful winter wedding reception"
+    },
+    {
+      "id": 103,
+      "title": "Holiday Party",
+      "venue": "Tech Company HQ",
+      "date": "2024-12-07",
+      "description": "Annual company celebration"
+    }
+  ]
+}

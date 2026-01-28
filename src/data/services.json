@@ -1,0 +1,52 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "title": "Weddings",
+      "description": "Make your special day unforgettable with the perfect soundtrack. From ceremony to reception, I'll keep the dance floor packed.",
+      "icon": "Heart",
+      "features": ["Custom playlist curation", "MC services available", "Ceremony music", "Reception entertainment"]
+    },
+    {
+      "id": 2,
+      "title": "Corporate Events",
+      "description": "Professional entertainment for company parties, product launches, and corporate celebrations.",
+      "icon": "Building",
+      "features": ["Brand-appropriate music", "Professional setup", "Flexible scheduling", "Background or dance music"]
+    },
+    {
+      "id": 3,
+      "title": "Private Parties",
+      "description": "Birthday parties, anniversaries, graduations - whatever the occasion, I'll bring the energy.",
+      "icon": "PartyPopper",
+      "features": ["Personalized playlists", "All genres available", "Song requests welcome", "Lighting packages"]
+    },
+    {
+      "id": 4,
+      "title": "Club Nights",
+      "description": "High-energy sets that keep the crowd moving all night long. Specializing in house, hip-hop, and top 40.",
+      "icon": "Music",
+      "features": ["4-6 hour sets", "Genre mixing", "Crowd reading", "Professional sound"]
+    }
+  ],
+  "pricing": {
+    "note": "Pricing varies based on event duration, location, and requirements. Contact for a custom quote.",
+    "packages": [
+      {
+        "name": "Basic",
+        "description": "DJ services for up to 4 hours",
+        "startingAt": 500
+      },
+      {
+        "name": "Premium",
+        "description": "DJ + MC services, up to 6 hours, includes lighting",
+        "startingAt": 1000
+      },
+      {
+        "name": "Full Production",
+        "description": "Complete event entertainment package",
+        "startingAt": 1500
+      }
+    ]
+  }
+}

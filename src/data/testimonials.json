@@ -1,0 +1,40 @@
+{
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Sarah & Michael",
+      "eventType": "Wedding",
+      "date": "October 2024",
+      "rating": 5,
+      "text": "Absolutely amazing! The dance floor was packed all night and everyone is still talking about how great the music was. Thank you for making our wedding so special!",
+      "image": null
+    },
+    {
+      "id": 2,
+      "name": "Jennifer T.",
+      "eventType": "Corporate Event",
+      "date": "September 2024",
+      "rating": 5,
+      "text": "Professional, punctual, and incredibly talented. Our company holiday party was a huge success thanks to the perfect mix of music.",
+      "image": null
+    },
+    {
+      "id": 3,
+      "name": "Marcus R.",
+      "eventType": "Birthday Party",
+      "date": "August 2024",
+      "rating": 5,
+      "text": "Hired for my 40th birthday and it was the best party I've ever had. Knew exactly how to read the room and keep everyone dancing.",
+      "image": null
+    },
+    {
+      "id": 4,
+      "name": "Club Venue Manager",
+      "eventType": "Club Night",
+      "date": "Ongoing",
+      "rating": 5,
+      "text": "A true professional who consistently delivers high-energy sets. Our Friday nights have never been better since bringing them on as a resident.",
+      "image": null
+    }
+  ]
+}
