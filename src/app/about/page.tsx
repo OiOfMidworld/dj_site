@@ -95,21 +95,23 @@ export default function AboutPage() {
             <p className="text-[var(--foreground-muted)]">{services.pricing.note}</p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-6">
-            {services.pricing.packages.map((pkg) => (
-              <div
-                key={pkg.name}
-                className="p-6 rounded-2xl bg-[var(--card)] border border-[var(--border)] text-center"
-              >
-                <h3 className="text-xl font-semibold mb-2">{pkg.name}</h3>
-                <p className="text-[var(--foreground-muted)] text-sm mb-4">{pkg.description}</p>
-                <div className="text-3xl font-bold gradient-text">
-                  ${pkg.startingAt}+
+          {services.pricing.packages.length > 0 && (
+            <div className="grid md:grid-cols-3 gap-6">
+              {(services.pricing.packages as Array<{ name: string; description: string; startingAt: number }>).map((pkg) => (
+                <div
+                  key={pkg.name}
+                  className="p-6 rounded-2xl bg-[var(--card)] border border-[var(--border)] text-center"
+                >
+                  <h3 className="text-xl font-semibold mb-2">{pkg.name}</h3>
+                  <p className="text-[var(--foreground-muted)] text-sm mb-4">{pkg.description}</p>
+                  <div className="text-3xl font-bold gradient-text">
+                    ${pkg.startingAt}+
+                  </div>
+                  <div className="text-sm text-[var(--foreground-muted)]">starting at</div>
                 </div>
-                <div className="text-sm text-[var(--foreground-muted)]">starting at</div>
-              </div>
-            ))}
-          </div>
+              ))}
+            </div>
+          )}
 
           <div className="text-center mt-8">
             <Link
