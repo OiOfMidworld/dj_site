@@ -1,11 +1,11 @@
 {
-  "siteName": "DJ Name",
-  "tagline": "Bringing the Beat to Your Event",
-  "description": "Professional DJ services for weddings, corporate events, private parties, and club nights.",
+  "siteName": "DJ FITZ",
+  "tagline": "Turning Moments/Music into Memories",
+  "description": "DJ Fitz is a vibe creator who knows how to cater to every age group. Whether it's a fun-filled kids' party with the latest pop hits and interactive games or a high-energy adult celbration with an exlectic mix of classic rock, techno beats, or smooth jazz, DJ Fitz has got it covered.",
   "contact": {
     "email": "contact@example.com",
     "phone": "(555) 123-4567",
-    "location": "Los Angeles, CA"
+    "location": "Sagamore Beach, MA"
   },
   "social": {
     "instagram": "https://instagram.com/djname",
@@ -15,9 +15,9 @@
   },
   "calendlyUrl": "https://calendly.com/cyrusw213",
   "about": {
-    "bio": "With over 10 years of experience, I've had the privilege of providing entertainment for hundreds of events. My passion for music and dedication to creating unforgettable experiences drives everything I do. From intimate gatherings to large-scale productions, I bring energy, professionalism, and the perfect soundtrack to every event.",
+    "bio": "Hi, I'm Jim Fitzpatrick, but you might know me better as DJ Fitz. Music has been my passion for as long as I can remember - it's the rhythm that's been driving me throughout my life. I've had the privilege of playinh with various bands up and down the East Coast, soaking in the energy of live performances and connecting with people through the universal language of music. Over time, I realized that my true calling wasn't just in playing music, but in creating experiences - curating those perfect musical moments that resonate with people of all ages. ",
     "experience": "10+ years",
-    "eventsCompleted": "500+",
+    "eventsCompleted": "100+",
     "genres": ["House", "Hip-Hop", "Top 40", "R&B", "Latin", "EDM", "80s/90s", "Rock"]
   }
 }

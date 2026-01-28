@@ -23,7 +23,7 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 text-xl font-bold">
             <Music className="w-6 h-6 text-[var(--color-primary)]" />
-            <span className="gradient-text">DJ Name</span>
+            <span className="gradient-text">DJ FITZ</span>
           </Link>
 
           {/* Desktop Navigation */}
