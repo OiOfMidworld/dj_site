@@ -1,4 +1,4 @@
-import CalendlyEmbed from "@/components/CalendlyEmbed";
+import ContactForm from "@/components/ContactForm";
 import siteConfig from "@/data/siteConfig.json";
 import { Mail, Phone, HelpCircle } from "lucide-react";
 
@@ -49,7 +49,7 @@ export default function BookPage() {
       {/* Calendly Embed */}
       <section className="px-4 pb-16">
         <div className="max-w-4xl mx-auto">
-          <CalendlyEmbed url={siteConfig.calendlyUrl} />
+          <ContactForm />
         </div>
       </section>
 

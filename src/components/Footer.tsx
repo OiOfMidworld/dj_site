@@ -17,28 +17,6 @@ export default function Footer() {
               {siteConfig.description}
             </p>
             <div className="flex gap-4">
-              {siteConfig.social.instagram && (
-                <a
-                  href={siteConfig.social.instagram}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-[var(--foreground-muted)] hover:text-[var(--color-primary)] transition-colors"
-                  aria-label="Instagram"
-                >
-                  <Instagram className="w-5 h-5" />
-                </a>
-              )}
-              {siteConfig.social.youtube && (
-                <a
-                  href={siteConfig.social.youtube}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-[var(--foreground-muted)] hover:text-[var(--color-primary)] transition-colors"
-                  aria-label="YouTube"
-                >
-                  <Youtube className="w-5 h-5" />
-                </a>
-              )}
             </div>
           </div>
 
@@ -54,16 +32,6 @@ export default function Footer() {
               <li>
                 <Link href="/gallery" className="text-[var(--foreground-muted)] hover:text-white transition-colors">
                   Gallery
-                </Link>
-              </li>
-              <li>
-                <Link href="/events" className="text-[var(--foreground-muted)] hover:text-white transition-colors">
-                  Events
-                </Link>
-              </li>
-              <li>
-                <Link href="/testimonials" className="text-[var(--foreground-muted)] hover:text-white transition-colors">
-                  Testimonials
                 </Link>
               </li>
               <li>

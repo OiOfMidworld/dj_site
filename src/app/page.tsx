@@ -50,31 +50,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Featured Testimonial */}
-      <section className="py-20 px-4">
-        <div className="max-w-4xl mx-auto text-center">
-          <div className="flex justify-center gap-1 mb-6">
-            {[...Array(5)].map((_, i) => (
-              <Star key={i} className="w-6 h-6 fill-[var(--color-accent)] text-[var(--color-accent)]" />
-            ))}
-          </div>
-          <blockquote className="text-2xl md:text-3xl font-medium mb-6 italic">
-            &ldquo;{featuredTestimonial.text}&rdquo;
-          </blockquote>
-          <div className="text-[var(--foreground-muted)]">
-            <span className="font-semibold text-white">{featuredTestimonial.name}</span>
-            {" "}&mdash; {featuredTestimonial.eventType}
-          </div>
-          <div className="mt-8">
-            <Link
-              href="/testimonials"
-              className="inline-flex items-center gap-2 text-[var(--color-primary)] hover:underline"
-            >
-              Read More Reviews <ArrowRight className="w-4 h-4" />
-            </Link>
-          </div>
-        </div>
-      </section>
 
       {/* CTA Section */}
       <section className="py-20 px-4 bg-gradient-to-r from-[var(--color-primary)]/20 to-[var(--color-secondary)]/20">
