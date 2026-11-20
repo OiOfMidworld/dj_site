@@ -53,6 +53,7 @@ export default function AboutPage() {
                 title={service.title}
                 description={service.description}
                 icon={service.icon}
+                features={service.features} 
               />
             ))}
           </div>
