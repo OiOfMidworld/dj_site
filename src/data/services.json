@@ -18,7 +18,8 @@
       "id": 3,
       "title": "Mixed Events",
       "description": "Birthday parties, anniversaries, graduations - whatever the occasion, DJ Fitz brings an unbeatable mix of enthusiasm, skill, and an eclectic selection of music.",
-      "icon": "Heart"
+      "icon": "Heart",
+      "features": [" "]
     }
   ],
   "pricing": {
