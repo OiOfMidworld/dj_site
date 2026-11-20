@@ -12,6 +12,7 @@ const faqs = [
     question: "How far in advance should I book?",
     answer:
       "I recommend booking at least 1-2 months in advance.",
+  },
   {
     question: "What's included in the booking?",
     answer:
@@ -26,7 +27,7 @@ const faqs = [
     question: "Can I provide a song request list?",
     answer:
       "Absolutely! I encourage clients to share their must-play songs and do-not-play lists. We'll discuss your preferences during the consultation.",
-  },
+  }
 ];
 
 export default function BookPage() {
