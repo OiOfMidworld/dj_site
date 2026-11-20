@@ -63,10 +63,6 @@ export default function GalleryPage() {
     </div>
   ))}
 </div>
-
-          <p className="text-center text-[var(--foreground-muted)] mt-6 text-sm">
-            Add your photos to <code className="bg-[var(--card)] px-2 py-1 rounded">/public/images/</code> and update this page.
-          </p>
         </div>
       </section>
 
@@ -81,9 +77,6 @@ export default function GalleryPage() {
           <div className="aspect-video rounded-xl bg-[var(--card)] border border-[var(--border)] flex items-center justify-center">
             <div className="text-center p-4">
               <Video className="w-16 h-16 text-[var(--foreground-muted)] mx-auto mb-4" />
-              <p className="text-[var(--foreground-muted)]">
-                Add YouTube or Vimeo video embeds here
-              </p>
               <p className="text-sm text-[var(--foreground-muted)] mt-2">
                 <iframe 
                   width="315" 
