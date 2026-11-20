@@ -11,8 +11,7 @@ const faqs = [
   {
     question: "How far in advance should I book?",
     answer:
-      "I recommend booking at least 2-3 months in advance for weddings and large events. For smaller events, 2-4 weeks notice is usually sufficient, depending on availability.",
-  },
+      "I recommend booking at least 1-2 months in advance.",
   {
     question: "What's included in the booking?",
     answer:
@@ -21,12 +20,7 @@ const faqs = [
   {
     question: "Do you travel for events?",
     answer:
-      "Yes! I'm based in the local area but travel for events within a reasonable distance. Travel fees may apply for distant locations.",
-  },
-  {
-    question: "What's your payment policy?",
-    answer:
-      "A 25% deposit is required to secure your date, with the remaining balance due one week before the event. I accept various payment methods for your convenience.",
+      "I'm based in the Upper Cape area and travel for events within a reasonable distance. Travel fees may apply for distant locations.",
   },
   {
     question: "Can I provide a song request list?",
